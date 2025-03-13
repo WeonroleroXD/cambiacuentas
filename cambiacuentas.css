@@ -8,7 +8,7 @@
 .switcheroo__squircles{display:flex;margin:0;padding:var(--gap-size);list-style:none;gap:var(--gap-size)}
 .switcheroo[direction="horizontal"] .switcheroo__squircles{flex-direction:row}
 .switcheroo[direction="vertical"] .switcheroo__squircles{flex-direction:column}
-.switcheroo{color:var(--color-text);background-color:var(--light);border:var(--border);font-size:16px}
+.switcheroo{color:var(--color-text);border:var(--border);font-size:16px}
 .switcheroo__squircle{position:relative;display:grid;place-items:center;background-color:var(--grey);width:40px;height:40px;border-radius:50%;cursor:pointer;transition:border-radius 128ms var(--ease)}
 .switcheroo__squircle:hover{border-radius:6px;background:var(--greyer)}
 .switcheroo__avatar img{width:40px;height:40px;object-fit:cover;object-position:center;border-radius:50%;transition:border-radius 128ms var(--ease);position:relative}
